@@ -46,6 +46,8 @@ class PlatformUtils {
         return DevicePlatform.macOS;
       case TargetPlatform.windows:
         return DevicePlatform.windows;
+      default:
+        return DevicePlatform.device;
     }
   }
 }
